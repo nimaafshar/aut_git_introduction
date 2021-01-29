@@ -1,4 +1,5 @@
 import random
 
-if __name__ == "__main__":
-    print(random.randint(0,10))
+
+def random_number(start,end):
+    return random.randint(start,end)
